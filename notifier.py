@@ -3,9 +3,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # Update these credentials
-EMAIL_SENDER = "AdityaTechBrigader@gmail.com"
-EMAIL_PASSWORD = "Ra9*n8%l)o"
-EMAIL_RECEIVER = "adityasrivastav821@gmail.com"  # Could also accept this per user
+EMAIL_SENDER = "your_email_address"
+EMAIL_PASSWORD = "email_password"
+EMAIL_RECEIVER = "reciever_email_address"  # Could also accept this per user
 
 # Send reminder email
 def send_email(event):
