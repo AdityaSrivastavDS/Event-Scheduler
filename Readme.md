@@ -19,14 +19,7 @@ The API is built for use via **Postman**, and all data is persisted between sess
 
 📁 Project Structure
 
-event-scheduler/
-├── app.py             # 🔧 Main Flask application with REST APIs
-├── reminder.py        # ⏰ Background thread to check for upcoming events every minute
-├── notifier.py        # 📧 Sends email reminders using Gmail SMTP
-├── utils.py           # 🧠 Utility functions for loading and saving events from JSON file
-├── events.json        # 💾 Persistent event storage (auto-created)
-├── requirements.txt   # 📦 Python dependencies list
-└── README.md          # 📘 Project documentation and usage guide
+<pre> event-scheduler/ ├── app.py # Main Flask application with REST APIs ├── reminder.py # Background thread to check for upcoming events every minute ├── notifier.py # Sends email reminders using Gmail SMTP ├── utils.py # Utility functions for loading and saving events from JSON file ├── events.json # Persistent event storage (auto-created) ├── requirements.txt # Python dependencies list └── README.md # Project documentation and usage guide </pre>
 
 ---
 
